@@ -76,3 +76,9 @@ print(course[-8])
 print(course[-2:-1])
 print(course[-10:-1])
 print(course[-5:-1])
+
+
+print(course.upper())
+print(course.lower())
+print(course.title())
+
