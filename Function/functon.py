@@ -22,3 +22,38 @@ def employersalary(salary,bouns,tax):
 
 employersalary(25000,5000,10)    
 employersalary(28000,3000,10)    
+
+# ------------//
+
+def welcome():
+ print("Welcome to Python Programming")
+
+
+welcome()
+welcome()
+welcome()
+
+num = 100
+def temp_f_to_c():
+    calc = (num - 32) * 5/9
+    print(calc)    
+
+temp_f_to_c()    
+
+
+def temp_f_to_c(num):
+    calc = (num-32)*5/9
+    print(calc)
+
+
+temp_f_to_c(100)
+temp_f_to_c(102)
+temp_f_to_c(212)
+
+
+def area(length,width):
+    print( "Area Is",length*width)
+
+area(100,50)   
+area(100,100)   
+area(100,250)   
